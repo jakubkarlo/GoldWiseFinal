@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--default colors-->
+    <color name="colorPrimary">#dfb419</color>
+    <color name="colorPrimaryDark">#df9d19</color>
+    <color name="colorAccent">#000000</color>
+    <color name="appBackground">#dfb419</color>
+    <color name="loginTextFieldsBackground">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="lightGrey">#c6c6c6</color>
+    <color name="progressGreen">#469c0d</color>
+    <color name="transparent">#00000000</color>
+    <color name="white_overlay">#41ffffff</color>
+    <color name="lightBg">#fdeeb7</color>
+    <color name="red">#ff0400</color>
+
+
+    <color name="black_overlay">#66000000</color>
+</resources>

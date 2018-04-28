@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/trans_white_rectangle"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/debtTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_vertical"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <ImageButton
+                android:id="@+id/closeDebtPopupButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="false"
+                android:layout_centerVertical="true"
+                android:background="@color/transparent"
+                android:tint="@color/colorAccent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@android:drawable/ic_delete" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/debtAmountTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/debtWhoPaidTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/debtorTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/setAsPaidButton"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_button"
+            android:text="@string/setAsPaid_button" />
+
+        <Button
+            android:id="@+id/setForSavingButton"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginStart="50dp"
+            android:background="@drawable/rounded_button"
+            android:text="@string/setForSaving_button" />
+
+        <Button
+            android:id="@+id/deleteDebtButton"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginStart="50dp"
+            android:background="@drawable/rounded_button"
+            android:text="@string/delete_button" />
+    </LinearLayout>
+</RelativeLayout>

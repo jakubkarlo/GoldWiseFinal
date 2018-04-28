@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">GoldWise</string>
+
+    <string name="title_activity_splash_screen">SplashScreen</string>
+
+    <!--buttons-->
+    <string name="login_button">Login</string>
+    <string name="goToSignUp_button">Not a user yet? Sign up!</string>
+    <string name="signUp_button">Sign up</string>
+    <string name="goBack_button">Go back!</string>
+    <string name="update_button">Update</string>
+    <string name="delete_button">Delete</string>
+    <string name="setAsPaid_button">Set as paid</string>
+    <string name="setForSaving_button">Add money to saving</string>
+
+    <!--yes no input-->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!--hints-->
+    <string name="phoneNumberHint_editText">Phone number</string>
+    <string name="usernameHint_editText">Username</string>
+    <string name="passwordHint_editText">Password</string>
+    <string name="repeatPasswordHint_editText">Repeat Password</string>
+
+    <string name="enterBudgetHint_editText">Event Budget</string>
+    <string name="eventDescription_editText">Description</string>
+
+    <string name="expenseAmount_editText">Enter price</string>
+    <string name="expenseTitle_editText">Enter title</string>
+
+    <string name="savingTitle_editText">Enter title</string>
+    <string name="savingAmount_editText">Enter amount</string>
+
+    <!--toasts-->
+    <string name="loginSuccessful_toast">Login successful</string>
+    <string name="signUpSuccessful_toast">Sign up successful</string>
+    <string name="passwordsDontMatch_toast">Passwords don\'t match</string>
+    <string name="provideData_toast">Provide all necessary data</string>
+
+    <!--textViews-->
+    <string name="loginHint_textView">Please provide the data for login</string>
+    <string name="welcome_textView">Welcome to GoldWise!</string>
+    <string name="registerTitle_textView">It\'s time to register!</string>
+    <string name="registerHint_textView">Please provide the data below</string>
+    <string name="noEvents_textView">You don\'t participate in any event :(</string>
+
+
+    <string name="eventBudget_textView">Event Budget</string>
+    <string name="newestSaving_textView">Your Goal</string>
+    <string name="latestDebts_textView">Latest Debts</string>
+    <string name="whoPaid_textView">Who paid?</string>
+    <string name="whoOwes_textView">Who owes?</string>
+
+    <string name="amountLeft_textView">Amount left:</string>
+    <string name="goalReached_textView">Goal reached!</string>
+    <string name="paidBy_textView">Paid by</string>
+    <string name="price_textView">Price:</string>
+
+    <string name="title_activity_specific_event">SpecificEventActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_add_event">AddEventActivity</string>
+
+
+
+    <!--checkboxes-->
+    <string name="paid_checkbox">Paid</string>
+    <string name="notPaid_checkbox">Not Paid</string>
+    <string name="saving_checkbox">For Saving</string>
+    <string name="checkAllParticipants_checkbox">Check all</string>
+
+
+    <string name="add_expense">Add Expense</string>
+    <string name="add_event">Add Event</string>
+    <string name="event_photo">Event photo</string>
+    <string name="change_photo_button">Change</string>
+    <string name="event_title">Event Title</string>
+    <string name="add_saving">Add Saving</string>
+
+
+
+    <!--Activity title labels-->
+    <string name="overview_label">Event Overview</string>
+    <string name="newEvent_label">New Event</string>
+    <string name="newExpense_label">New Expense</string>
+    <string name="newSaving_label">New Saving</string>
+
+
+    <!--Fragment titles-->
+    <string name="expenses_title">Expenses</string>
+    <string name="participants_title">Participants</string>
+    <string name="savings_title">Savings</string>
+    <string name="overview_title">Event Overview</string>
+    <string name="debts_title">Debts</string>
+
+    <!--dialogs-->
+    <string name="title_dataMissingDialog">Data Missing</string>
+    <string name="eventWithoutDataMessage_dataMissingDialog">Are you sure you want to upload event without data?</string>
+    <string name="yourEvents_textView">Your Events</string>
+    <string name="overBudget_textView">You\'re over budget by:</string>
+    <string name="budgetLeft_textView">Budget left:</string>
+    <string name="chooseSaving_textView">Choose saving</string>
+    <string name="logout_button">Logout</string>
+
+
+</resources>
